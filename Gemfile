@@ -5,8 +5,10 @@ ruby '1.9.3'
 gem 'rails', '4.0.0.rc2'
 gem 'devise'
 
+
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 group :development, :test do
